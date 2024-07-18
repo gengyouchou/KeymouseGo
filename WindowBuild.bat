@@ -26,6 +26,14 @@ REM Step 5: pyinstaller -F -w --add-data "./assets;assets" KeymouseGo.py
 echo Building executable with PyInstaller...
 pyinstaller -F -w --add-data "assets;assets" KeymouseGo.py
 
+REM Step 6: Run the executable
+echo Running the executable...
+dist\KeymouseGo.exe
+
+echo Done!
+pause
+endlocal
+
 echo Done!
 pause
 endlocal
